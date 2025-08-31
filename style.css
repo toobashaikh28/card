@@ -1,15 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  /* full screen height */
+    margin: 0;
+    padding: 0px;
+}
+
+.card {
+    max-width: 1200px;   /* prevent it from stretching too much */
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 7px 10px 21px rgba(0, 0, 0, 0.403);
+}
 
 .main{
     background-color: #FFFFFF;
     display: flex;
-    justify-content: center;
     margin:auto;
     padding: 0px 20px;
     font-family: jost;
+    padding: 20px;
 }
 
 .rigth{
-    width: 50%;
+    width: 48%;
+    
 }
 
 .mainImg{
@@ -21,8 +43,9 @@
 
 .left {
     width: 50%;
-    padding: 5px;
+    padding-left: 20px ;
     font-size: 20px;
+    padding-bottom:10px ;
 }
 
 .name{
@@ -34,12 +57,13 @@
 
 .link{
     color: #929292;
+    padding-bottom:10px ;
 }
 
 .secondrow{
     display: flex;
     color: #4A4949;
-    margin: 5px 0px ;
+    padding-bottom:10px ;
 }
 
 .center{
@@ -53,15 +77,16 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 100%;
+    letter-spacing: 0%;
     color: #929292;
-    margin-right: 5px;
+    padding-bottom:10px ;
 }
 
 .about{
     display: flex;
     align-items: center;
     gap: 160px;
-    margin-right:2px 5px;
+    padding-bottom:5px ;
     color: #6F6F6F;
     font-weight: 500;
     font-size: 20px;
@@ -87,7 +112,8 @@
 .thirdrow{
     justify-content: space-between;
     align-items: center;
-    margin: 5px;
+    padding-bottom:10px ;
+    padding-top:10px ;
 }
 
 .buttons{
@@ -110,15 +136,22 @@
     font-size: 18px;
     cursor: pointer;
     background: transparent;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc;   /* same as before */
     margin-right: 6px;
+    transition: 0.3s ease;    /* added for smooth hover effect */
 }
+
+.btn:hover {
+    border-color: #B600D1;   /* border changes */
+    color: #B600D1;          /* text also changes */
+}
+
 
 .owner{
     font-weight: 500;
     font-size: 20px;
     color: #6F6F6F;
-    margin: 5px;
+    padding-bottom:10px ;
 }
 
 .ownerimg{
@@ -136,7 +169,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 100%;
-    margin: 5px;
+    padding-bottom:10px ;
 }
 
 .details{
@@ -150,7 +183,8 @@
     gap: 10px;
     color: #121212;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
+    padding-bottom:10px ;
 }
 
 .dollar{
@@ -167,7 +201,7 @@
 
 .num{
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
     color: #121212;
 }
 
@@ -183,6 +217,7 @@
     font-size: 14px;
     color: #555;
     gap: 10px;
+    padding-bottom:10px ;
 }
 
 .checkbox-container input[type="checkbox"] {
