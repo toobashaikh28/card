@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     margin:auto;
-    margin-top: 10px;
     padding: 0px 20px;
     font-family: jost;
 }
@@ -14,16 +13,16 @@
 }
 
 .mainImg{
-    width: 100%;
-    width: 740px;
-    height: 740px;
-    border-radius: 50px;
+    width: 100%;          
+    max-width: 600px;     
+    height: auto;         
+    border-radius: 30px;
 }
 
-.left{
+.left {
     width: 50%;
-    padding: 10px;
-    font-size: 22px;
+    padding: 5px;
+    font-size: 20px;
 }
 
 .name{
@@ -40,13 +39,14 @@
 .secondrow{
     display: flex;
     color: #4A4949;
-    margin: 10px 0px ;
+    margin: 5px 0px ;
 }
 
 .center{
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 20px;
 }
 
 .discription{
@@ -54,14 +54,14 @@
     font-size: 20px;
     line-height: 100%;
     color: #929292;
-    margin: 10px;
+    margin-right: 5px;
 }
 
 .about{
     display: flex;
     align-items: center;
     gap: 160px;
-    margin: 10px;
+    margin-right:2px 5px;
     color: #6F6F6F;
     font-weight: 500;
     font-size: 20px;
@@ -71,7 +71,7 @@
     display: flex;
     align-items: center;
     gap: 50px;
-    margin: 10px;
+    margin: 5px;
 }
 
 .flex{
@@ -87,7 +87,7 @@
 .thirdrow{
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
+    margin: 5px;
 }
 
 .buttons{
@@ -118,7 +118,7 @@
     font-weight: 500;
     font-size: 20px;
     color: #6F6F6F;
-    margin: 10px;
+    margin: 5px;
 }
 
 .ownerimg{
@@ -128,7 +128,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin: 10px;
+    margin-right: 5px;
 }
 
 .price{
@@ -136,7 +136,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 100%;
-    margin: 10px;
+    margin: 5px;
 }
 
 .details{
@@ -150,8 +150,7 @@
     gap: 10px;
     color: #121212;
     font-weight: 600;
-    font-size: 30px;
-    margin: 10px;
+    font-size: 25px;
 }
 
 .dollar{
@@ -168,7 +167,7 @@
 
 .num{
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     color: #121212;
 }
 
@@ -183,7 +182,6 @@
     margin-bottom: 15px;
     font-size: 14px;
     color: #555;
-    margin: 10px;
     gap: 10px;
 }
 
@@ -216,5 +214,4 @@
     font-weight: 500;
     font-size: 20px;
     color: #929292;
-    margin: 10px;
 }
